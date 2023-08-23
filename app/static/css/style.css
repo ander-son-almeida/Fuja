@@ -1,0 +1,52 @@
+/* Estilo para inputs */
+input[type="text"],
+input[type="number"],
+
+/* Estilo para o campo de seleção combinado com campo de texto */
+.select-combo {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.select-combo option {
+    font-size: 16px;
+}
+/* Estilo para botões */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para o formulário */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Estilo para a caixa que contém tudo */
+.container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 500px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para a div que contém o mapa */
+.map-container {
+    margin-top: 20px;
+    width: 500px;
+    height: 500px; /* Defina um tamanho fixo para o mapa */
+}
