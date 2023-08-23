@@ -6,7 +6,6 @@ Created on Sun Aug 20 20:31:58 2023
 """
 
 import pandas as pd
-import numpy as np
 import streamlit as st
 import geopandas as gpd
 from shapely.geometry import Point
