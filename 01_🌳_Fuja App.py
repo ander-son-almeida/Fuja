@@ -14,7 +14,7 @@ import folium
 from streamlit_folium import st_folium
 from folium.plugins import BeautifyIcon
 
-st.set_page_config(page_title="Fuja!", page_icon="📈")
+st.set_page_config(page_title="Fuja!", page_icon="🌳")
 
 municipios_sudeste = pd.read_parquet(
     "dados_extraidos_sudeste/municipios_sud.parquet"
